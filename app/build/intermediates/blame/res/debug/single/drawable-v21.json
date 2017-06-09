@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/home/abhay/.android/build-cache/b7836f845fc453bac8f27d84ca5bfda3da6471b5/output/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/home/abhay/.android/build-cache/b7836f845fc453bac8f27d84ca5bfda3da6471b5/output/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/drawable-v21/abc_edit_text_material.xml",
+        "source": "/home/abhay/.android/build-cache/b7836f845fc453bac8f27d84ca5bfda3da6471b5/output/res/drawable-v21/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/drawable-v21/notification_action_background.xml",
+        "source": "/home/abhay/.android/build-cache/b7836f845fc453bac8f27d84ca5bfda3da6471b5/output/res/drawable-v21/notification_action_background.xml"
+    }
+]

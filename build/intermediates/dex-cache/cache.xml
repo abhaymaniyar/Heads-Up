@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="/home/abhay/.android/build-cache/3d90784886a19f3524e5e1f8193dcfb18569861c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="88246166d5afb106f532f6e6deae683c66b42c89">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_e3c45b62573c9ee2aa9d03d812f1e542ce24ab3e/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhay/.android/build-cache/542269ade48fa7d8d5373c8c5645612494ae3e55/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e176fd06c2ad5b50a2f5cb4de6000a83a7cb48f5">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_9a0f9c2c6b2b0a924f98f3c70c5f7a51077fabdd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhay/.android/build-cache/40dd3972563128ce11ce6cc9db8c36c146dd7290/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4f45092eee6cdf1a5dbd597b2b6819be652ce2e">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_298260c0facf892ecf30a55a73d1659ec05bb316/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhay/.android/build-cache/cd6ea988c109a15843b8107a3344dc5e6bdfc856/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fcd01fd11233459f546c437ec927e9b61bf7caf1">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_eec25174698b1aefe6308c9ec96711f4f791c505/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhay/.android/build-cache/b7836f845fc453bac8f27d84ca5bfda3da6471b5/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="47471eb19df288158b00b8d9cfa41bce7373f5cc">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f8ce5321328ba8a6de0aac7887bfc5201b1d8037/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/media/abhay/Android/Android/Sdk/extras/android/m2repository/com/android/support/support-annotations/26.0.0-alpha1/support-annotations-26.0.0-alpha1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="023ee503b631f69511e335a061ea008f8da60f40">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/support-annotations-26.0.0-alpha1_5f7bd1b752303cf4255b97f921cdc2111e6b13cd/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhay/Desktop/HeadsUp/app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="1bf23e766e2f647bccf9025ae99c7f0bc10632bd">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6b7a2a2e301b815617b709b2c8a0895411675f52/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhay/.android/build-cache/f693b603d4629863d9db91380376289450b272e6/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9935891f23923f39d002087085d9696568a9f657">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_7d743fcf68baf35e520c41e531cfe7aa5be28b06/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhay/.android/build-cache/fb0a907cea21d7587da3b4b4c15ca23f16536c5e/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8df0e365e40beb151bc42dee20817721a6cab7b0">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_f68d3ccb1a8961c6a3c4c7dcbe5b50abb0c70845/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhay/.android/build-cache/b21a95f7dc0f711f8d30201dfda58e4147028d00/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_76cb93e7fd5bcc09a6744d2aa2f3e170becdd782/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhay/.android/build-cache/f08a8dcc9faee7d780459b3c4e555e6e60fbd432/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="952944218ecedea1554a513dec0c14d570642843">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_2b014d795ae3099eef4c0491daa04e1945959bdf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhay/.android/build-cache/c193f165eb92106b80c3a1337ce02521e9fcb63c/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="18d31838aa4fcc768a8a0516e22cc13b94655d89">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_86a7820183060f7904419d7537d19dc7dd6f771c/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhay/.android/build-cache/9a99c2918a68e290b0ca32797d173454e8244b8b/output/jars/classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="2e92aa0163544a804a0b34f169ca61801770839a">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10/classes_32a6cf19a85d68ffa6dcb8d1c33e2e29d57e33bf/classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/home/abhay/Desktop/HeadsUp/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_28c1c37e31ae5ea493b9f13f8459a946264b0633/classes.dex" />
+    </item>
+
+</items>
