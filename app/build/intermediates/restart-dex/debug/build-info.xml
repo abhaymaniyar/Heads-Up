@@ -6,22 +6,22 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1497038746975"
+    timestamp="1497040546958"
     token="1883124232136732116"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="2336" />
+        duration="384" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="296" />
+        duration="93" />
     <task
         name="verifier"
-        duration="2" />
+        duration="1" />
 
     <artifact
         location="/home/abhay/Desktop/HeadsUp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -73,7 +73,15 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1497038639917"
+        timestamp="1497040231439"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/home/abhay/Desktop/HeadsUp/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
+            type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        timestamp="1497040518488"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/abhay/Desktop/HeadsUp/app/build/outputs/apk/app-debug.apk"
@@ -81,7 +89,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1497038746975"
+        timestamp="1497040546958"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/abhay/Desktop/HeadsUp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"

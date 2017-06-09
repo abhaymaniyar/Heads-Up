@@ -52,10 +52,6 @@
         "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/drawable-nodpi/album7.jpg"
     },
     {
-        "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/album5.jpg",
-        "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/drawable-nodpi/album5.jpg"
-    },
-    {
         "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/drawable-nodpi-v4/border.xml",
         "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/drawable-nodpi/border.xml"
     },

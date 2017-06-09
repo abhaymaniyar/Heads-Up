@@ -1,4 +1,4 @@
-#Sat Jun 10 01:34:45 IST 2017
+#Sat Jun 10 02:00:36 IST 2017
 base.0=/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6b7a2a2e301b815617b709b2c8a0895411675f52
 renamed.1=classes2.dex
 renamed.0=classes.dex
