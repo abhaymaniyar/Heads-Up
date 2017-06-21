@@ -1,7 +1,15 @@
 [
     {
+        "merged": "/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
+        "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
         "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher.png",
         "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",
+        "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/mipmap-xxxhdpi/ic_launcher_round.png"
     },
     {
         "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/ic_launcher_round.png",

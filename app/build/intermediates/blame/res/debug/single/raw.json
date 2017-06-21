@@ -4,12 +4,24 @@
         "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/raw/timeout.wav"
     },
     {
+        "merged": "/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/res/merged/debug/raw/applause.wav",
+        "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/raw/applause.wav"
+    },
+    {
+        "merged": "/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/res/merged/debug/raw/tick.wav",
+        "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/raw/tick.wav"
+    },
+    {
         "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/raw/newname.wav",
         "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/raw/newname.wav"
     },
     {
         "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/raw/start.wav",
         "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/raw/start.wav"
+    },
+    {
+        "merged": "/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/res/merged/debug/raw/start.wav",
+        "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/raw/start.wav"
     },
     {
         "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/raw/red.wav",
@@ -20,15 +32,35 @@
         "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/raw/green.wav"
     },
     {
+        "merged": "/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/res/merged/debug/raw/timeout.wav",
+        "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/raw/timeout.wav"
+    },
+    {
+        "merged": "/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/res/merged/debug/raw/red.wav",
+        "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/raw/red.wav"
+    },
+    {
         "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/raw/tick.wav",
         "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/raw/tick.wav"
+    },
+    {
+        "merged": "/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/res/merged/debug/raw/newname.wav",
+        "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/raw/newname.wav"
     },
     {
         "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/raw/applause.wav",
         "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/raw/applause.wav"
     },
     {
+        "merged": "/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/res/merged/debug/raw/finish.wav",
+        "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/raw/finish.wav"
+    },
+    {
         "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/raw/finish.wav",
         "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/raw/finish.wav"
+    },
+    {
+        "merged": "/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/res/merged/debug/raw/green.wav",
+        "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/raw/green.wav"
     }
 ]

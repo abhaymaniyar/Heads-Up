@@ -2,5 +2,9 @@
     {
         "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_dots.png",
         "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/drawable-hdpi/ic_dots.png"
+    },
+    {
+        "merged": "/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_dots.png",
+        "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/drawable-hdpi/ic_dots.png"
     }
 ]

@@ -21,7 +21,11 @@ import android.widget.Button;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 import java.util.Random;
@@ -122,6 +126,22 @@ public class CategoryActivity extends AppCompatActivity implements SensorEventLi
         mContext = this;
         setContentView(R.layout.category_activity);
         strArr = b.getStringArrayList(b.keySet().iterator().next());
+
+        String catName = b.keySet().iterator().next().toLowerCase();
+        int ch;
+        String str = "";
+        try {
+            BufferedReader bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open(catName+".txt")));
+            while((ch = bufferedReader.read()) != -1){
+                str += (char)ch;
+            }
+            String[] strArray = str.split(",");
+            ArrayList strArr = new ArrayList(Arrays.asList(strArray));
+
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+
         textViewText = (TextView) findViewById(textView);
         timerText = (TextView) findViewById(timer);
         mpGreen = MediaPlayer.create(mContext, R.raw.green);
@@ -163,54 +183,6 @@ public class CategoryActivity extends AppCompatActivity implements SensorEventLi
         });
         textViewText.setVisibility(View.GONE);
         timerText.setVisibility(View.GONE);
-
-//        exitButton.setOnClickListener(new View.OnClickListener() {
-//            @Override
-//            public void onClick(View v) {
-//                onGamePause();
-//                AlertDialog.Builder builder = new AlertDialog.Builder(mContext);
-//                builder.setTitle(R.string.app_name);
-//                builder.setMessage("Game Paused! Do you want to continue?");
-//                builder.setPositiveButton("Yes", new DialogInterface.OnClickListener() {
-//                    public void onClick(DialogInterface dialog, int id) {
-//                        dialog.dismiss();
-//                        Log.d(">>>>", "onClick: " + total);
-//                        gamePauseTime = new CountDownTimer(total, 1000) {
-//                            @Override
-//                            public void onTick(long millisUntilFinished) {
-//                                total = millisUntilFinished;
-//                                timerText.setText(millisUntilFinished / 1000 + " Seconds");
-//                            }
-//
-//                            @Override
-//                            public void onFinish() {
-//                                textViewText.setText("Time Over!");
-//                                textViewText.postDelayed(new Runnable() {
-//                                    @Override
-//                                    public void run() {
-//                                        resultIntent.putExtra("Skipped", skippedStrArr.size());
-//                                        resultIntent.putExtra("Correct", doneStrArr.size());
-//                                        mSensorManager.unregisterListener(mShakeDetector);
-//                                        mContext.startActivity(resultIntent);
-//                                        skippedStrArr.clear();
-//                                        doneStrArr.clear();
-//                                    }
-//                                }, 1500);
-//                                timerText.setVisibility(View.GONE);
-//                            }
-//                        }.start();
-//                    }
-//                });
-//                builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
-//                    public void onClick(DialogInterface dialog, int id) {
-//                        onDestroy();
-//                        onBackPressed();
-//                    }
-//                });
-//                AlertDialog alert = builder.create();
-//                alert.show();
-//            }
-//        });
     }
 
     @Override
@@ -288,7 +260,6 @@ public class CategoryActivity extends AppCompatActivity implements SensorEventLi
             });
             builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
-                    onDestroy();
                     onBackPressed();
                 }
             });
