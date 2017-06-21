@@ -17,16 +17,13 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
-import android.widget.Button;
 import android.widget.TextView;
-import android.widget.Toast;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.ArrayList;
 import java.util.Arrays;
-import java.util.Collection;
 import java.util.Collections;
 import java.util.Random;
 
@@ -116,6 +113,22 @@ public class CategoryActivity extends AppCompatActivity implements SensorEventLi
                 }
             }, 1500);
             timerText.setVisibility(View.GONE);
+        }
+    };
+
+    CountDownTimer tickTimer = new CountDownTimer(4000, 1000) {
+
+        @Override
+        public void onTick(long millisUntilFinished) {
+            mpTick.start();
+            threeTwoOneText.setText(String.valueOf(millisUntilFinished / 1000));
+        }
+
+        @Override
+        public void onFinish() {
+            mpStart.start();
+//                            mpStart.setVolume(volume, volume);
+            threeTwoOneText.setText("Start!");
         }
     };
 
@@ -261,6 +274,7 @@ public class CategoryActivity extends AppCompatActivity implements SensorEventLi
             builder.setNegativeButton("No", new DialogInterface.OnClickListener() {
                 public void onClick(DialogInterface dialog, int id) {
                     onBackPressed();
+                    mSensorManager.unregisterListener(mShakeDetector);
                 }
             });
             AlertDialog alert = builder.create();
@@ -294,21 +308,7 @@ public class CategoryActivity extends AppCompatActivity implements SensorEventLi
                     textViewText.setVisibility(View.GONE);
                     timerText.setVisibility(View.GONE);
                     threeTwoOneText.setVisibility(View.VISIBLE);
-                    new CountDownTimer(4000, 1000) {
-
-                        @Override
-                        public void onTick(long millisUntilFinished) {
-                            mpTick.start();
-                            threeTwoOneText.setText(String.valueOf(millisUntilFinished / 1000));
-                        }
-
-                        @Override
-                        public void onFinish() {
-                            mpStart.start();
-//                            mpStart.setVolume(volume, volume);
-                            threeTwoOneText.setText("Start!");
-                        }
-                    }.start();
+                    tickTimer.start();
                     mSensorManager.unregisterListener(this);
 
                     textViewText.postDelayed(new Runnable() {
@@ -341,13 +341,14 @@ public class CategoryActivity extends AppCompatActivity implements SensorEventLi
     protected void onGamePause() {
         gameTime.cancel();
         gamePauseTime.cancel();
+        mSensorManager.unregisterListener(mShakeDetector);
     }
 
     @Override
     protected void onPause() {
         super.onPause();
-//        mSensorManager.unregisterListener(this);
-        
+        onGamePause();
+//        onDestroy();
     }
 
     protected void onResume() {
@@ -360,6 +361,14 @@ public class CategoryActivity extends AppCompatActivity implements SensorEventLi
     @Override
     public void onAccuracyChanged(Sensor sensor, int accuracy) {
 
+    }
+
+    @Override
+    protected void onRestart() {
+        super.onRestart();
+        Intent i = new Intent(CategoryActivity.mContext, MainActivity.class);
+        finish();
+        startActivity(i);
     }
 }
 

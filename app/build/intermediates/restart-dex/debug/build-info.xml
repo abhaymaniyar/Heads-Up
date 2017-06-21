@@ -6,22 +6,22 @@
     density="xhdpi"
     format="10"
     plugin-version="2.3.3"
-    timestamp="1498028326544"
+    timestamp="1498040886453"
     token="1883124232136732116"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="861" />
+        duration="304" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="77" />
+        duration="53" />
     <task
         name="verifier"
-        duration="10" />
+        duration="2" />
 
     <artifact
         location="/home/abhay/Desktop/HeadsUp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
@@ -32,16 +32,19 @@
 
     <build
         build-mode="FULL"
-        timestamp="1498027839731"
+        timestamp="1498038474948"
         verifier="FULL_BUILD_REQUESTED" >
+        <artifact
+            location="/home/abhay/Desktop/HeadsUp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
+            type="SPLIT" />
+        <artifact
+            location="/home/abhay/Desktop/HeadsUp/app/build/outputs/apk/app-debug.apk"
+            type="SPLIT_MAIN" />
         <artifact
             location="/home/abhay/Desktop/HeadsUp/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
             location="/home/abhay/Desktop/HeadsUp/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
-            type="SPLIT" />
-        <artifact
-            location="/home/abhay/Desktop/HeadsUp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
             location="/home/abhay/Desktop/HeadsUp/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
@@ -67,13 +70,10 @@
         <artifact
             location="/home/abhay/Desktop/HeadsUp/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
-        <artifact
-            location="/home/abhay/Desktop/HeadsUp/app/build/outputs/apk/app-debug.apk"
-            type="SPLIT_MAIN" />
     </build>
     <build
         build-mode="COLD"
-        timestamp="1498028050220"
+        timestamp="1498040795973"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/abhay/Desktop/HeadsUp/app/build/outputs/apk/app-debug.apk"
@@ -81,7 +81,7 @@
     </build>
     <build
         build-mode="COLD"
-        timestamp="1498028326544"
+        timestamp="1498040886453"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="/home/abhay/Desktop/HeadsUp/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
