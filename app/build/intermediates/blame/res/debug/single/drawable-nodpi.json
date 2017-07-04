@@ -20,10 +20,6 @@
         "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/drawable-nodpi/categorybg.png"
     },
     {
-        "merged": "/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/res/merged/debug/drawable-nodpi/resultactivitybg.png",
-        "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/drawable-nodpi/resultactivitybg.png"
-    },
-    {
         "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/drawable-nodpi/album8.png",
         "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/drawable-nodpi/album8.png"
     },
@@ -42,9 +38,5 @@
     {
         "merged": "/home/abhay/Desktop/HeadsUp/app/build/intermediates/res/merged/debug/drawable-nodpi/resultbg.png",
         "source": "/home/abhay/Desktop/HeadsUp/app/src/main/res/drawable-nodpi/resultbg.png"
-    },
-    {
-        "merged": "/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/res/merged/debug/drawable-nodpi/album8.png",
-        "source": "/home/abhay/AndroidStudioProjects/Heads-Up/app/src/main/res/drawable-nodpi/album8.png"
     }
 ]

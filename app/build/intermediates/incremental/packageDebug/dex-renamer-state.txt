@@ -1,7 +1,4 @@
-#Sat Jun 10 02:00:36 IST 2017
-base.0=/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6b7a2a2e301b815617b709b2c8a0895411675f52
-renamed.1=classes2.dex
+#Tue Jul 04 10:51:12 IST 2017
+base.0=/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main
 renamed.0=classes.dex
-file.1=/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_28c1c37e31ae5ea493b9f13f8459a946264b0633/classes.dex
-base.1=/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_28c1c37e31ae5ea493b9f13f8459a946264b0633
-file.0=/home/abhay/Desktop/HeadsUp/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_6b7a2a2e301b815617b709b2c8a0895411675f52/classes.dex
+file.0=/home/abhay/AndroidStudioProjects/Heads-Up/app/build/intermediates/transforms/dex/debug/folders/1000/1f/main/classes.dex

@@ -117,18 +117,18 @@ public class MainActivity extends AppCompatActivity {
                 R.drawable.album2,
                 R.drawable.album3,
                 R.drawable.album4,
-                R.drawable.album6,
+                R.drawable.album5,
                 R.drawable.album7,
                 R.drawable.album8
         };
 
         categoriesList.add(new Categories("Movies", 15, covers[0]));
         categoriesList.add(new Categories("Songs", 15, covers[1]));
-        categoriesList.add(new Categories("Act it out", 15, covers[2]));
-        categoriesList.add(new Categories("Game of Thrones", 15, covers[3]));
-        categoriesList.add(new Categories("Actors", 15, covers[6]));
-        categoriesList.add(new Categories("Green Earth", 15, covers[4]));
-        categoriesList.add(new Categories("Dialogues", 15, covers[5]));
+        categoriesList.add(new Categories("Cartoon Network", 15, covers[2]));
+        categoriesList.add(new Categories("Act it out", 15, covers[3]));
+        categoriesList.add(new Categories("Game of Thrones", 15, covers[4]));
+        categoriesList.add(new Categories("Food Items", 15, covers[5]));
+        categoriesList.add(new Categories("Animals", 15, covers[6]));
 
         adapter.notifyDataSetChanged();
 
@@ -137,8 +137,11 @@ public class MainActivity extends AppCompatActivity {
     private void prepareStrings() throws IOException {
         ArrayList<String> moviesString = new ArrayList<>(35);
         ArrayList<String> songsString = new ArrayList<>(24);
+        ArrayList<String> cartoonString = new ArrayList<>(15);
         ArrayList<String> actItOutString = new ArrayList<>(15);
         ArrayList<String> gotString = new ArrayList<>(15);
+        ArrayList<String> foodString = new ArrayList<>(15);
+        ArrayList<String> animalString = new ArrayList<>(15);
 
         int ch;
         String str = "";
@@ -167,6 +170,18 @@ public class MainActivity extends AppCompatActivity {
         stringsList.put(categoriesList.get(1).getName(), songsString);
 
         str = "";
+        bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open("cartoons.txt")));
+        while((ch = bufferedReader.read()) != -1){
+            str += (char)ch;
+        }
+        strArray = str.split(",");
+
+        for (int i = 0; i < strArray.length; i++){
+            cartoonString.add(strArray[i]);
+        }
+        stringsList.put(categoriesList.get(2).getName(), cartoonString);
+
+        str = "";
         bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open("act it out.txt")));
         while((ch = bufferedReader.read()) != -1){
             str += (char)ch;
@@ -177,65 +192,7 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < strArray.length; i++){
             actItOutString.add(strArray[i]);
         }
-        stringsList.put(categoriesList.get(2).getName(), actItOutString);
-
-        ArrayList<String> actorString = new ArrayList<>(25);
-        actorString.add("Shatrugun Sinha");
-        actorString.add("Rajpal Yadav");
-        actorString.add("Nargis Fakhri");
-        actorString.add("Mallika Sherawat");
-        actorString.add("Himesh Reshmiya");
-        actorString.add("Salman Khan");
-        actorString.add("Amir Khan");
-        actorString.add("Abhishekh Bachchan");
-        actorString.add("Jaya Bachchan");
-        actorString.add("Sanjay Dutt");
-        actorString.add("Varun Dhawan");
-        actorString.add("Malika Arora");
-        actorString.add("Sagarika Ghatage");
-        actorString.add("Ritesh Deshmukh");
-        actorString.add("Jhony Depp");
-        actorString.add("Johny Lever");
-        actorString.add("Angelina Jolie");
-        actorString.add("Paresh Rawal");
-        actorString.add("Kadar Khan");
-        actorString.add("Govinda Khanna");
-        actorString.add("Vivek Oberoi");
-        actorString.add("Arjun Rampal");
-        actorString.add("Katrina Kaif");
-        actorString.add("Bobby Darling");
-        actorString.add("Kamal R Khan");
-        actorString.add("Prabhas");
-
-        stringsList.put(categoriesList.get(3).getName(), actorString);
-        ArrayList<String> greentEarthString = new ArrayList<>(15);
-        greentEarthString.add("Naino Khushi kabhi bum");
-        greentEarthString.add("Teri Chahta hai");
-        greentEarthString.add("2Naino Khushi kabhi bum");
-        greentEarthString.add("1Teri Chahta hai");
-        greentEarthString.add("12Naino Khushi kabhi bum");
-        greentEarthString.add("21Teri Chahta hai");
-        greentEarthString.add("4Naino Khushi kabhi bum");
-        greentEarthString.add("32Teri Chahta hai");
-        greentEarthString.add("22Teri Chahta hai");
-        greentEarthString.add("5Naino Khushi kabhi bum");
-        greentEarthString.add("2111Teri Chahta hai");
-        greentEarthString.add("111Teri Chahta hai");
-        stringsList.put(categoriesList.get(4).getName(), greentEarthString);
-        ArrayList<String> dialoguesString = new ArrayList<>(15);
-        dialoguesString.add("Naino Khushi kabhi bum");
-        dialoguesString.add("Teri Chahta hai");
-        dialoguesString.add("2Naino Khushi kabhi bum");
-        dialoguesString.add("1Teri Chahta hai");
-        dialoguesString.add("12Naino Khushi kabhi bum");
-        dialoguesString.add("21Teri Chahta hai");
-        dialoguesString.add("4Naino Khushi kabhi bum");
-        dialoguesString.add("32Teri Chahta hai");
-        dialoguesString.add("22Teri Chahta hai");
-        dialoguesString.add("5Naino Khushi kabhi bum");
-        dialoguesString.add("2111Teri Chahta hai");
-        dialoguesString.add("111Teri Chahta hai");
-        stringsList.put(categoriesList.get(5).getName(), dialoguesString);
+        stringsList.put(categoriesList.get(3).getName(), actItOutString);
 
         str = "";
         bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open("game of thrones.txt")));
@@ -248,7 +205,44 @@ public class MainActivity extends AppCompatActivity {
         for (int i = 0; i < strArray.length; i++){
             gotString.add(strArray[i]);
         }
-        stringsList.put(categoriesList.get(6).getName(), gotString);
+        stringsList.put(categoriesList.get(4).getName(), gotString);
+
+//        str = "";
+//        bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open("food items.txt")));
+//        while((ch = bufferedReader.read()) != -1){
+//            str += (char)ch;
+//        }
+//        strArray = str.split(",");
+//
+//        for (int i = 0; i < strArray.length; i++){
+//            foodString.add(strArray[i]);
+//        }
+//        stringsList.put(categoriesList.get(5).getName(), foodString);
+
+        str = "";
+        bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open("food items.txt")));
+        while((ch = bufferedReader.read()) != -1){
+            str += (char)ch;
+        }
+        strArray = str.split(",");
+
+        for (int i = 0; i < strArray.length; i++){
+            foodString.add(strArray[i]);
+        }
+        stringsList.put(categoriesList.get(5).getName(), foodString);
+
+        str = "";
+        bufferedReader = new BufferedReader(new InputStreamReader(getAssets().open("animals.txt")));
+        while((ch = bufferedReader.read()) != -1){
+            str += (char)ch;
+        }
+        strArray = str.split(",");
+
+        for (int i = 0; i < strArray.length; i++){
+            animalString.add(strArray[i]);
+        }
+        stringsList.put(categoriesList.get(6).getName(), animalString);
+
         adapter.notifyDataSetChanged();
     }
 }
